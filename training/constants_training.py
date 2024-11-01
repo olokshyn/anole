@@ -14,10 +14,13 @@ DATASET_TOKENIZED_PATH = Path("./dataset_tokenized.jsonl")
 DATASET_IMAGE_PATH = Path("./images/")
 
 # Anole torch path (specify the path that you want to store your Anole torch checkpoint)
-ANOLE_PATH_TORCH = Path("./model/anole/")
+ANOLE_PATH_TORCH = Path("./data")
 
 # Anole HF path (specify the path that you want to store your Anole hugging face checkpoint)
 ANOLE_PATH_HF = Path("./model/anole-hf/")
 
 # Anole HF path (specify the path that you want to store your fine-tuned Anole hugging face checkpoint)
 ANOLE_PATH_HF_TRAINED = Path("./model/anole-hf_trained/")
+
+
+WIKIHOW_DATASET_PATH = Path("/share/datasets/wikihow-vgsi")
